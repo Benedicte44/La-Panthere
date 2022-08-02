@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+
     background-size: 280px 280px;
 }
 
@@ -193,10 +193,9 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
+
+
+
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -231,7 +230,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -250,6 +249,7 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+    font-weight: bold;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -651,7 +651,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -723,7 +722,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
@@ -737,6 +736,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(12, 12, 12, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,12 +775,14 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine:hover {
@@ -824,7 +826,9 @@ h4 {
 .bg-presentation {
     background-image: url("img/la-panthere-web-design-presentation.jpg");
 }
-
+.contraste-bandeau{
+    color: white;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
