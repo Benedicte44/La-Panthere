@@ -702,7 +702,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h3 {
+.bandeau-title {
     font-size: 22px;
     line-height: 1.4em;
 }
