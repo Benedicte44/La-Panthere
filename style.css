@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -691,7 +691,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -735,7 +734,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: rgb(0, 0, 0)!important;
     font-weight: bold;
 }
 
@@ -781,13 +780,13 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
     font-weight: bold;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -827,7 +826,7 @@ h4 {
     background-image: url("img/la-panthere-web-design-presentation.jpg");
 }
 .contraste-bandeau{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 @media (max-width: 1024px) {
     .bloc {
